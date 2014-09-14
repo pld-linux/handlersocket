@@ -4,7 +4,7 @@ Summary:	HandlerSocket plugin for MySQL
 Summary(pl.UTF-8):	Wtyczka HandlerSocket dla MySQL-a
 Name:		handlersocket
 Version:	1.1.1
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries
 Source0:	https://github.com/DeNA/HandlerSocket-Plugin-for-MySQL/archive/%{version}/%{name}-%{version}.tar.gz
@@ -192,6 +192,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Net/HandlerSocket.pm
 %{perl_vendorarch}/Net/HandlerSocket
 %dir %{perl_vendorarch}/auto/Net/HandlerSocket
-%{perl_vendorarch}/auto/Net/HandlerSocket/HandlerSocket.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Net/HandlerSocket/HandlerSocket.so
 %{_mandir}/man3/Net::HandlerSocket.3pm*
