@@ -3,12 +3,12 @@
 Summary:	HandlerSocket plugin for MySQL
 Summary(pl.UTF-8):	Wtyczka HandlerSocket dla MySQL-a
 Name:		handlersocket
-Version:	1.1.1
-Release:	5
+Version:	1.1.2
+Release:	1
 License:	BSD
 Group:		Libraries
 Source0:	https://github.com/DeNA/HandlerSocket-Plugin-for-MySQL/archive/%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	7c634126b93a38af23bc0052b60c2130
+# Source0-md5:	b5aa5df200ce59b25d5becead76724e5
 URL:		https://github.com/DeNA/HandlerSocket-Plugin-for-MySQL
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake
