@@ -1,5 +1,4 @@
 # NOTE: plugin itself is built within main mysql/percona-server package
-%include	/usr/lib/rpm/macros.perl
 Summary:	HandlerSocket plugin for MySQL
 Summary(pl.UTF-8):	Wtyczka HandlerSocket dla MySQL-a
 Name:		handlersocket
